@@ -1,0 +1,28 @@
+openapi: 3.0.3
+info:
+  title: bodytransformapi-1-0-0
+  version: 1.0.0
+  description: Operational baseline generated from observed Kong Konnect configuration.
+servers:
+- url: https://postman-echo.com
+paths:
+  /transform/1.0.0/post:
+    post:
+      operationId: postTransform100Post_07d3700e
+      summary: bodytransformapi-1-0-0--postpost
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - 55ca72eb-44d2-4efb-bd5c-4955b34f225d
+      x-kong-plugin-summary:
+      - acl
+      - jwt
+      - rate-limiting
+      - request-transformer
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+x-kong-source:
+  serviceId: 20140091-aad3-40df-98c7-c8a25de119e8
+  snapshotFingerprint: 07cea5136085320a7d1a760a482942009d20bec1206588859bbf39aee15301c0
+  controlPlaneId: edb363b5-777a-445c-a190-5ca0d53c0c12
+x-kong-unmapped-routes: []
